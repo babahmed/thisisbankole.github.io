@@ -118,6 +118,10 @@ td {
   background-color: #fcfcfc;
 }
 
+#customers td, #customers th {
+  border: 1px solid #fff;
+  opacity: 0.8;
+}
 
 footer {
   margin: 20px 20px 20px 30px;
