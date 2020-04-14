@@ -64,6 +64,7 @@ p {
   margin: 0px 20px 0px 30px;
   background-color: #fff8e1;
   background-size: cover;
+  width: 97%;
   color: #ffa000;
   text-decoration: none solid rgb(255, 160, 0);
 }
