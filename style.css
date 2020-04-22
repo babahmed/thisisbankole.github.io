@@ -9,7 +9,7 @@ img {
 }
 
 p {
-  font-family: Source Sans Pro;
+  font-family: 'Source Sans Pro', sans-serif;
   font-size: 16px;
   font-weight: normal;
   
@@ -21,7 +21,7 @@ p {
 }
 
 .box{
-  font-family: Source Sans Pro;
+  font-family: 'Source Sans Pro', sans-serif;
   display: block;
   background-color: #f8f8f8;
   background-size: cover;
@@ -80,7 +80,7 @@ p {
 
 
 #customers {
-  font-family: Source Sans Pro;
+  font-family: 'Source Sans Pro', sans-serif;
   font-size: 16px;
   font-weight: normal;
   border-collapse: collapse;
@@ -130,7 +130,7 @@ footer {
 
 
 .bottom {
-  font-family: Source Sans Pro;
+  font-family: 'Source Sans Pro', sans-serif;
   font-size: 12px;
 }
 
