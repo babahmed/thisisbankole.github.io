@@ -4,6 +4,53 @@
   <meta charset="UTF-8">
   <title>account statement</title>
  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400&display=swap" rel="stylesheet">
+ <style type="text/css">
+ .styled-table {
+      border-collapse: collapse;
+      width: 97%;
+      margin: 40px 20px 0px 30px;
+      font-size: 0.9em;
+      font-family: sans-serif;
+      min-width: 400px;
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+      }
+      .styled-table thead tr {
+      background-color: #61297F;
+      color: #ffffff;
+      text-align: left;
+      }
+      .styled-table th,
+      .styled-table td {
+      padding: 12px 15px;
+      }
+      .styled-table tbody tr {
+      border-bottom: 1px solid #dddddd;
+      }
+
+      .styled-table tbody tr:nth-of-type(even) {
+      background-color: #f3f3f3;
+      }
+
+      .styled-table tbody tr:last-of-type {
+      border-bottom: 2px solid #61297F;
+      }
+      .styled-table tbody tr.active-row {
+      font-weight: bold;
+      color: #61297F;}
+
+      .add {
+        font-family: 'Source Sans Pro', sans-serif;font-size: 16px;font-weight: normal;width: 218px;height: 10px;
+}
+.period {
+  font-family: 'Source Sans Pro', sans-serif;font-size: 16px;font-weight: normal;margin: 50px 0px 40px 0px;
+}
+.details {
+  font-family: 'Source Sans Pro', sans-serif;font-size: 16px;font-weight: normal;
+}
+.bottom {
+  font-family: 'Source Sans Pro', sans-serif;font-size: 12px;font-weight: normal;
+}
+</style>
 
 </head>
 <body style="background-color: #ffffff;margin-top: 50px;">
@@ -14,11 +61,11 @@
     <img src="https://res.cloudinary.com/dvxeblbzz/image/upload/v1599310151/Vulte_Logo_Vector-09_1_b1ys3j.png" style="width: 150px;height: 100px;">
     <p class="one" style="font-family: 'Source Sans Pro', sans-serif;font-size: 16px;font-weight: normal;margin: 30px 0px 30px 0px;"> Hello Chinedu,</p>
  <div class="location"> 
-    <p class="add" style="font-family: 'Source Sans Pro', sans-serif;font-size: 16px;font-weight: normal;width: 218px;height: 10px;"> House 4A  Drive, Nicon Town, </p>
-    <p class="add" style="font-family: 'Source Sans Pro', sans-serif;font-size: 16px;font-weight: normal;width: 218px;height: 10px;"> KM 14 Lekki/Epe Expressway, </p>
-    <p class="add" style="font-family: 'Source Sans Pro', sans-serif;font-size: 16px;font-weight: normal;width: 218px;height: 10px;"> Lekki, Lagos.</p>
+    <p class="add"> House 4A  Drive, Nicon Town, </p>
+    <p class="add"> KM 14 Lekki/Epe Expressway, </p>
+    <p class="add"> Lekki, Lagos.</p>
   </div> 
-    <p class="period" style="font-family: 'Source Sans Pro', sans-serif;font-size: 16px;font-weight: normal;margin: 50px 0px 40px 0px;">Please find below your bank statement for the period: January 1 2020 to January 31 2020.</p>
+    <p class="period">Please find below your bank statement for the period: January 1 2020 to January 31 2020.</p>
   </div>
   
 <div class="box">  
@@ -28,117 +75,48 @@
 </div>
 <div id="container" style="display: flex;line-height: 25px;margin: 0px 20px 0px 30px;background-color: #fff8e1;background-size: cover;width: 97%;color: #ffa000;text-decoration: none solid rgb(255, 160, 0);"> 
 <div class="accountd" style="margin: 0px 20px 0px 30px;flex: 0.9;">
-<p style="font-family: 'Source Sans Pro', sans-serif;font-size: 16px;font-weight: normal;"> Account Number: &nbsp; &nbsp; &nbsp; 2010001234 </p>
-<p style="font-family: 'Source Sans Pro', sans-serif;font-size: 16px;font-weight: normal;"> Account Name: &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; ALIYU BOLARINWA CHINEDU </p>
-<p style="font-family: 'Source Sans Pro', sans-serif;font-size: 16px;font-weight: normal;"> Account Type: &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; CURRENT ACCOUNT </p>
-<p style="font-family: 'Source Sans Pro', sans-serif;font-size: 16px;font-weight: normal;"> Account Currency: &nbsp; &nbsp; &nbsp; NIGERIAN NAIRA (NGN) </p>
+<p class="details"> Account Number: &nbsp; &nbsp; &nbsp; 2010001234 </p>
+<p class="details"> Account Name: &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; ALIYU BOLARINWA CHINEDU </p>
+<p class="details"> Account Type: &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; CURRENT ACCOUNT </p>
+<p class="details"> Account Currency: &nbsp; &nbsp; &nbsp; NIGERIAN NAIRA (NGN) </p>
 </div>
 
 <div class="accountdeet"> 
-<p style="font-family: 'Source Sans Pro', sans-serif;font-size: 16px;font-weight: normal;"> Opening Balance: &nbsp; &nbsp; &nbsp; 2,128,225.97 </p>
-<p style="font-family: 'Source Sans Pro', sans-serif;font-size: 16px;font-weight: normal;"> Closing Balance: &nbsp; &nbsp; &nbsp;&nbsp; 2,004,985.87 </p>
-<p style="font-family: 'Source Sans Pro', sans-serif;font-size: 16px;font-weight: normal;"> Total Credit: &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 1,323,330,513.73 </p>
-<p style="font-family: 'Source Sans Pro', sans-serif;font-size: 16px;font-weight: normal;"> Total Debit: &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; 1,323,543,753.83</p>
+<p class="details"> Opening Balance: &nbsp; &nbsp; &nbsp; 2,128,225.97 </p>
+<p class="details"> Closing Balance: &nbsp; &nbsp; &nbsp;&nbsp; 2,004,985.87 </p>
+<p class="details"> Total Credit: &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 1,323,330,513.73 </p>
+<p class="details"> Total Debit: &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; 1,323,543,753.83</p>
 </div>
 </div>
-<table id="customers" style="font-family: 'Source Sans Pro', sans-serif;font-size: 16px;font-weight: normal;border-collapse: collapse;width: 97%;margin: 40px 20px 0px 30px;">
+<table class="styled-table">
+  <thead>
   <tr>
-    <th style="padding-left: 22px;padding-right: 22px;text-align: left;width: 1020px;height: 50px;background-color: #61297F;background-size: cover;color: white;border: 1px solid #0E0612;opacity: 0.8;">Trans. Date</th>
-    <th style="padding-left: 22px;padding-right: 22px;text-align: left;width: 1020px;height: 50px;background-color: #61297F;background-size: cover;color: white;border: 1px solid #0E0612;opacity: 0.8;">Ref. Number</th>
-    <th style="padding-left: 22px;padding-right: 22px;text-align: left;width: 1020px;height: 50px;background-color: #61297F;background-size: cover;color: white;border: 1px solid #0E0612;opacity: 0.8;">Transaction Details</th>
-    <th style="padding-left: 22px;padding-right: 22px;text-align: left;width: 1020px;height: 50px;background-color: #61297F;background-size: cover;color: white;border: 1px solid #0E0612;opacity: 0.8;">Deposit (CR)</th>
-    <th style="padding-left: 22px;padding-right: 22px;text-align: left;width: 1020px;height: 50px;background-color: #61297F;background-size: cover;color: white;border: 1px solid #0E0612;opacity: 0.8;">Withdrawal (CR)</th>
-    <th style="padding-left: 22px;padding-right: 22px;text-align: left;width: 1020px;height: 50px;background-color: #61297F;background-size: cover;color: white;border: 1px solid #0E0612;opacity: 0.8;">Balance</th>
+    <th>Trans. Date</th>
+    <th>Ref. Number</th>
+    <th>Transaction Details</th>
+    <th>Deposit (CR)</th>
+    <th>Withdrawal (CR)</th>
+    <th>Balance</th>
   </tr>
+</thead>
+<tbody>
   <tr>
-    <td style="padding-left: 22px;padding-right: 22px;padding-top: 22px;padding-bottom: 22px;text-align: left;border: 1px solid #0E0612;opacity: 0.8;">Alfreds Futterkiste</td>
-    <td style="padding-left: 22px;padding-right: 22px;padding-top: 22px;padding-bottom: 22px;text-align: left;border: 1px solid #0E0612;opacity: 0.8;">Maria Anders</td>
-    <td style="padding-left: 22px;padding-right: 22px;padding-top: 22px;padding-bottom: 22px;text-align: left;border: 1px solid #0E0612;opacity: 0.8;">Germany</td>
-    <td style="padding-left: 22px;padding-right: 22px;padding-top: 22px;padding-bottom: 22px;text-align: left;border: 1px solid #0E0612;opacity: 0.8;">Alfreds Futterkiste</td>
-    <td style="padding-left: 22px;padding-right: 22px;padding-top: 22px;padding-bottom: 22px;text-align: left;border: 1px solid #0E0612;opacity: 0.8;">Maria Anders</td>
-    <td style="padding-left: 22px;padding-right: 22px;padding-top: 22px;padding-bottom: 22px;text-align: left;border: 1px solid #0E0612;opacity: 0.8;">Germany</td>
+    <td>Alfreds Futterkiste</td>
+    <td>Maria Anders</td>
+    <td>Germany</td>
+    <td>Alfreds Futterkiste</td>
+    <td>Maria Anders</td>
+    <td>Germany</td>
   </tr>
-  <tr>
-    <td style="padding-left: 22px;padding-right: 22px;padding-top: 22px;padding-bottom: 22px;text-align: left;border: 1px solid #0E0612;opacity: 0.8;">Berglunds snabbköp</td>
-    <td style="padding-left: 22px;padding-right: 22px;padding-top: 22px;padding-bottom: 22px;text-align: left;border: 1px solid #0E0612;opacity: 0.8;">Christina Berglund</td>
-    <td style="padding-left: 22px;padding-right: 22px;padding-top: 22px;padding-bottom: 22px;text-align: left;border: 1px solid #0E0612;opacity: 0.8;">Sweden</td>
-    <td style="padding-left: 22px;padding-right: 22px;padding-top: 22px;padding-bottom: 22px;text-align: left;border: 1px solid #0E0612;opacity: 0.8;">Berglunds snabbköp</td>
-    <td style="padding-left: 22px;padding-right: 22px;padding-top: 22px;padding-bottom: 22px;text-align: left;border: 1px solid #0E0612;opacity: 0.8;">Christina Berglund</td>
-    <td style="padding-left: 22px;padding-right: 22px;padding-top: 22px;padding-bottom: 22px;text-align: left;border: 1px solid #0E0612;opacity: 0.8;">Sweden</td>
-  </tr>
-  <tr>
-    <td style="padding-left: 22px;padding-right: 22px;padding-top: 22px;padding-bottom: 22px;text-align: left;border: 1px solid #0E0612;opacity: 0.8;">Centro comercial Moctezuma</td>
-    <td style="padding-left: 22px;padding-right: 22px;padding-top: 22px;padding-bottom: 22px;text-align: left;border: 1px solid #0E0612;opacity: 0.8;">Francisco Chang</td>
-    <td style="padding-left: 22px;padding-right: 22px;padding-top: 22px;padding-bottom: 22px;text-align: left;border: 1px solid #0E0612;opacity: 0.8;">Mexico</td>
-    <td style="padding-left: 22px;padding-right: 22px;padding-top: 22px;padding-bottom: 22px;text-align: left;border: 1px solid #0E0612;opacity: 0.8;">Centro comercial Moctezuma</td>
-    <td style="padding-left: 22px;padding-right: 22px;padding-top: 22px;padding-bottom: 22px;text-align: left;border: 1px solid #0E0612;opacity: 0.8;">Francisco Chang</td>
-    <td style="padding-left: 22px;padding-right: 22px;padding-top: 22px;padding-bottom: 22px;text-align: left;border: 1px solid #0E0612;opacity: 0.8;">Mexico</td>
-  </tr>
-  <tr>
-    <td style="padding-left: 22px;padding-right: 22px;padding-top: 22px;padding-bottom: 22px;text-align: left;border: 1px solid #0E0612;opacity: 0.8;">Ernst Handel</td>
-    <td style="padding-left: 22px;padding-right: 22px;padding-top: 22px;padding-bottom: 22px;text-align: left;border: 1px solid #0E0612;opacity: 0.8;">Roland Mendel</td>
-    <td style="padding-left: 22px;padding-right: 22px;padding-top: 22px;padding-bottom: 22px;text-align: left;border: 1px solid #0E0612;opacity: 0.8;">Austria</td>
-    <td style="padding-left: 22px;padding-right: 22px;padding-top: 22px;padding-bottom: 22px;text-align: left;border: 1px solid #0E0612;opacity: 0.8;">Ernst Handel</td>
-    <td style="padding-left: 22px;padding-right: 22px;padding-top: 22px;padding-bottom: 22px;text-align: left;border: 1px solid #0E0612;opacity: 0.8;">Roland Mendel</td>
-    <td style="padding-left: 22px;padding-right: 22px;padding-top: 22px;padding-bottom: 22px;text-align: left;border: 1px solid #0E0612;opacity: 0.8;">Austria</td>
-  </tr>
-  <tr>
-    <td style="padding-left: 22px;padding-right: 22px;padding-top: 22px;padding-bottom: 22px;text-align: left;border: 1px solid #0E0612;opacity: 0.8;">Island Trading</td>
-    <td style="padding-left: 22px;padding-right: 22px;padding-top: 22px;padding-bottom: 22px;text-align: left;border: 1px solid #0E0612;opacity: 0.8;">Helen Bennett</td>
-    <td style="padding-left: 22px;padding-right: 22px;padding-top: 22px;padding-bottom: 22px;text-align: left;border: 1px solid #0E0612;opacity: 0.8;">UK</td>
-    <td style="padding-left: 22px;padding-right: 22px;padding-top: 22px;padding-bottom: 22px;text-align: left;border: 1px solid #0E0612;opacity: 0.8;">Island Trading</td>
-    <td style="padding-left: 22px;padding-right: 22px;padding-top: 22px;padding-bottom: 22px;text-align: left;border: 1px solid #0E0612;opacity: 0.8;">Helen Bennett</td>
-    <td style="padding-left: 22px;padding-right: 22px;padding-top: 22px;padding-bottom: 22px;text-align: left;border: 1px solid #0E0612;opacity: 0.8;">UK</td>
-  </tr>
-  <tr>
-    <td style="padding-left: 22px;padding-right: 22px;padding-top: 22px;padding-bottom: 22px;text-align: left;border: 1px solid #0E0612;opacity: 0.8;">Königlich Essen</td>
-    <td style="padding-left: 22px;padding-right: 22px;padding-top: 22px;padding-bottom: 22px;text-align: left;border: 1px solid #0E0612;opacity: 0.8;">Philip Cramer</td>
-    <td style="padding-left: 22px;padding-right: 22px;padding-top: 22px;padding-bottom: 22px;text-align: left;border: 1px solid #0E0612;opacity: 0.8;">Germany</td>
-    <td style="padding-left: 22px;padding-right: 22px;padding-top: 22px;padding-bottom: 22px;text-align: left;border: 1px solid #0E0612;opacity: 0.8;">Königlich Essen</td>
-    <td style="padding-left: 22px;padding-right: 22px;padding-top: 22px;padding-bottom: 22px;text-align: left;border: 1px solid #0E0612;opacity: 0.8;">Philip Cramer</td>
-    <td style="padding-left: 22px;padding-right: 22px;padding-top: 22px;padding-bottom: 22px;text-align: left;border: 1px solid #0E0612;opacity: 0.8;">Germany</td>
-  </tr>
-  <tr>
-    <td style="padding-left: 22px;padding-right: 22px;padding-top: 22px;padding-bottom: 22px;text-align: left;border: 1px solid #0E0612;opacity: 0.8;">Laughing Bacchus Winecellars</td>
-    <td style="padding-left: 22px;padding-right: 22px;padding-top: 22px;padding-bottom: 22px;text-align: left;border: 1px solid #0E0612;opacity: 0.8;">Yoshi Tannamuri</td>
-    <td style="padding-left: 22px;padding-right: 22px;padding-top: 22px;padding-bottom: 22px;text-align: left;border: 1px solid #0E0612;opacity: 0.8;">Canada</td>
-     <td style="padding-left: 22px;padding-right: 22px;padding-top: 22px;padding-bottom: 22px;text-align: left;border: 1px solid #0E0612;opacity: 0.8;">Laughing Bacchus Winecellars</td>
-    <td style="padding-left: 22px;padding-right: 22px;padding-top: 22px;padding-bottom: 22px;text-align: left;border: 1px solid #0E0612;opacity: 0.8;">Yoshi Tannamuri</td>
-    <td style="padding-left: 22px;padding-right: 22px;padding-top: 22px;padding-bottom: 22px;text-align: left;border: 1px solid #0E0612;opacity: 0.8;">Canada</td>
-  </tr>
-  <tr>
-    <td style="padding-left: 22px;padding-right: 22px;padding-top: 22px;padding-bottom: 22px;text-align: left;border: 1px solid #0E0612;opacity: 0.8;">Magazzini Alimentari Riuniti</td>
-    <td style="padding-left: 22px;padding-right: 22px;padding-top: 22px;padding-bottom: 22px;text-align: left;border: 1px solid #0E0612;opacity: 0.8;">Giovanni Rovelli</td>
-    <td style="padding-left: 22px;padding-right: 22px;padding-top: 22px;padding-bottom: 22px;text-align: left;border: 1px solid #0E0612;opacity: 0.8;">Italy</td>
-    <td style="padding-left: 22px;padding-right: 22px;padding-top: 22px;padding-bottom: 22px;text-align: left;border: 1px solid #0E0612;opacity: 0.8;">Magazzini Alimentari Riuniti</td>
-    <td style="padding-left: 22px;padding-right: 22px;padding-top: 22px;padding-bottom: 22px;text-align: left;border: 1px solid #0E0612;opacity: 0.8;">Giovanni Rovelli</td>
-    <td style="padding-left: 22px;padding-right: 22px;padding-top: 22px;padding-bottom: 22px;text-align: left;border: 1px solid #0E0612;opacity: 0.8;">Italy</td>
-  </tr>
-  <tr>
-    <td style="padding-left: 22px;padding-right: 22px;padding-top: 22px;padding-bottom: 22px;text-align: left;border: 1px solid #0E0612;opacity: 0.8;">North/South</td>
-    <td style="padding-left: 22px;padding-right: 22px;padding-top: 22px;padding-bottom: 22px;text-align: left;border: 1px solid #0E0612;opacity: 0.8;">Simon Crowther</td>
-    <td style="padding-left: 22px;padding-right: 22px;padding-top: 22px;padding-bottom: 22px;text-align: left;border: 1px solid #0E0612;opacity: 0.8;">UK</td>
-    <td style="padding-left: 22px;padding-right: 22px;padding-top: 22px;padding-bottom: 22px;text-align: left;border: 1px solid #0E0612;opacity: 0.8;">North/South</td>
-    <td style="padding-left: 22px;padding-right: 22px;padding-top: 22px;padding-bottom: 22px;text-align: left;border: 1px solid #0E0612;opacity: 0.8;">Simon Crowther</td>
-    <td style="padding-left: 22px;padding-right: 22px;padding-top: 22px;padding-bottom: 22px;text-align: left;border: 1px solid #0E0612;opacity: 0.8;">UK</td>
-  </tr>
-  <tr>
-    <td style="padding-left: 22px;padding-right: 22px;padding-top: 22px;padding-bottom: 22px;text-align: left;border: 1px solid #0E0612;opacity: 0.8;">Paris spécialités</td>
-    <td style="padding-left: 22px;padding-right: 22px;padding-top: 22px;padding-bottom: 22px;text-align: left;border: 1px solid #0E0612;opacity: 0.8;">Marie Bertrand</td>
-    <td style="padding-left: 22px;padding-right: 22px;padding-top: 22px;padding-bottom: 22px;text-align: left;border: 1px solid #0E0612;opacity: 0.8;">France</td>
-    <td style="padding-left: 22px;padding-right: 22px;padding-top: 22px;padding-bottom: 22px;text-align: left;border: 1px solid #0E0612;opacity: 0.8;">Paris spécialités</td>
-    <td style="padding-left: 22px;padding-right: 22px;padding-top: 22px;padding-bottom: 22px;text-align: left;border: 1px solid #0E0612;opacity: 0.8;">Marie Bertrand</td>
-    <td style="padding-left: 22px;padding-right: 22px;padding-top: 22px;padding-bottom: 22px;text-align: left;border: 1px solid #0E0612;opacity: 0.8;">France</td>
-  </tr>
+</tbody> 
 </table>
 <footer style="margin: 20px 20px 20px 30px;"> 
-  <p class="bottom" style="font-family: 'Source Sans Pro', sans-serif;font-size: 12px;font-weight: normal;"> <em> Please report any discrepancies in this statement within 15 days of receipt. Failure to do so implies the statement is correct.</em> </p>
+  <p class="bottom"> <em> Please report any discrepancies in this statement within 15 days of receipt. Failure to do so implies the statement is correct.</em> </p>
 <div id="last" style="display: flex;">
     <div class="bot" style="flex: 1;">
-  <p class="bottom" style="font-family: 'Source Sans Pro', sans-serif;font-size: 12px;font-weight: normal;"> For enquiries, requests or complaints, call  YESCenter on 0700-POLARIS (0700-7652747) (+234 0806 988 0000), </p>
-  <p class="bottom" style="font-family: 'Source Sans Pro', sans-serif;font-size: 12px;font-weight: normal;"> 01 448 2100 or 01 270 5850 or <a href="yescenter@polarisbanklimited.com"> E-mail: yescenter@polarisbanklimited.com </a> </p>
+  <p class="bottom"> For enquiries, requests or complaints, call  YESCenter on 0700-POLARIS (0700-7652747) (+234 0806 988 0000), </p>
+  <p class="bottom"> 01 448 2100 or 01 270 5850 or <a href="yescenter@polarisbanklimited.com"> E-mail: yescenter@polarisbanklimited.com </a> </p>
     </div>
-<p class="bottom" style="font-family: 'Source Sans Pro', sans-serif;font-size: 12px;font-weight: normal;"> Page 1 of 3 </p>
   </div>
 </footer>
 </body>
